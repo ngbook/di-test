@@ -8,6 +8,7 @@ import { BMWEngineService } from '../../services/bmw-engine.service';
 @Component({
     selector: 'component-1',
     template: `
+        <div test></div>
         <ng-content></ng-content>
         <component-2></component-2>
         `,
